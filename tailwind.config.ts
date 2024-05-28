@@ -18,14 +18,20 @@ const config = {
       },
     },
     extend: {
+      fontFamily:{
+        poppins:["Poppins", "sans-serif"],
+        pacifico:["Pacifico","cursive"],
+        roboto:["Roboto", "sans-serif"],
+      },
       colors:{
         mycolor:{
-          100: "5FB0CE",
-          200: "1F466F",
-          300: "364149",
-          400: "0D0D11",
-          500: "3E4548",
-          600: "323B44",
+          100: "#5FB0CE",
+          200: "#1F466F",
+          300: "#364149",
+          400: "#0D0D11",
+          500: "#3E4548",
+          600: "#323B44",
+          700: "#F4F4F4",
         }
       },
       keyframes: {
