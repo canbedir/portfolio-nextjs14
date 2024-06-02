@@ -2,6 +2,7 @@ import About from "@/components/About/About";
 import Archive from "@/components/Archive/Archive";
 import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar/Navbar";
+import Projects from "@/components/Projects/Projects";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
           <Hero/>
           <Archive/>
           <About/>
+          <Projects/>
         </div>
       </main>
     </div>
