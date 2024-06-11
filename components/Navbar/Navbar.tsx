@@ -10,11 +10,11 @@ import MobileMenu from "./MobileMenu";
 const navLinks = [
   {
     title: "About",
-    path: "#about",
+    path: "#projects",
   },
   {
     title: "Projects",
-    path: "#projects",
+    path: "#about",
   },
   {
     title: "Contact",
